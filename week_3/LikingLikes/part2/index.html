@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="top-nav">
+      <h1>NetWork</h1>
+    </div>
+
+    <h1 class="title">Your Feed</h1>
+
+    <div class="main">
+      <div class="personal">
+        <img id="user-circle" src="user-circle.png" alt="no img">
+        <p><a href="#">Add a avador</a></p>
+        <h2>James Doe</h2>
+      </div>
+
+      <div class="post-lists">
+        <div class="feed">
+          <div class="personal-info">
+            <h1>Neil M</h1>
+            <p><span id="first">0</span> like(s)</p>
+            <button class="btn" id="first-btn" type="button" name="button" onclick="likeFunc('#first')">Like</button>
+          </div>
+          <div class="post">
+            <p>I just set up this new discord bot, let me know waht you all think. <a href="#">link</a></p>
+          </div>
+        </div>
+
+        <div class="feed">
+          <div class="personal-info">
+            <h1>Nichile K</h1>
+            <p><span id="second">0</span> like(s)</p>
+            <button class="btn" id="second-btn" type="button" name="button" onclick="likeFunc('#second')">Like</button>
+          </div>
+          <div class="post">
+            <p>Just finished my <a href="#">text comic</a>, check it out.</p>
+          </div>
+        </div>
+
+        <div class="feed">
+          <div class="personal-info">
+            <h1>Jim R</h1>
+            <p><span id="third">0</span> like(s)</p>
+            <button class="btn" id="third-btn" type="button" name="button" onclick="likeFunc('#third')">Like</button>
+          </div>
+          <div class="post">
+            <p>I can't stop listening to the <a href="#">new album</a>. Whos else is liking it?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="basic.js"></script>
+  </body>
+</html>

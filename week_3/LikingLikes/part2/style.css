@@ -1,0 +1,80 @@
+body {
+  width: 550px;
+  margin: auto;
+}
+
+.top-nav {
+  width: inherit;
+  color: white;
+  height: 70px;
+  background-color: black;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-nav h1 {
+  margin-left: 50px;
+}
+
+.title {
+  width: inherit;
+  text-align: center;
+}
+
+.main {
+  vertical-align: top;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal {
+  width: 150px;
+  height: 260px;
+  border: 4px solid black;
+  text-align: center;
+}
+
+
+#user-circle {
+  width: 70px;
+  margin-top: 30px;
+}
+
+
+.feed {
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.post-lists {
+  width: 400px;
+  margin: -20px auto;
+  margin-right: -20px;
+}
+
+.personal-info {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.post {
+  width: 280px;
+  margin-left: 20px;
+}
+
+
+
+.personal-info p {
+  font-size: 120%;
+}
+
+.btn {
+  font-size: 120%;
+  box-shadow: 4px 4px 4px black;
+  border: 3px solid black;
+  background-color: yellow;
+}

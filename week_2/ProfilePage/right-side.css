@@ -1,0 +1,60 @@
+.container, .side {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.side-top, .side-bottom {
+  background-color: silver;
+}
+
+.side {
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.side-user {
+  width: 25px;
+  border-radius: 100%;
+}
+
+.side-bottom {
+  margin-top: 100px;
+}
+
+#top-side, #bottom-side {
+  margin-top: -18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -15px;
+}
+
+#person-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#side-title {
+  display: flex;
+  justify-content: center;
+}
+
+.people-count {
+  color: black;
+  background-color: silver;
+  border: 2px solid green;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 100%;
+  margin-left: 5px;
+  margin-right: -10px;
+}
+
+.view-more {
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 1px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,61 @@
+.main {
+  width: 900px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.nav {
+  width: inherit;
+  height: 120px;
+  border-bottom: 3px solid black;
+  display: inline-block;
+}
+
+.nav .top-side {
+  display: flex;
+  margin-bottom: -30px;
+  padding-bottom: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#leaf {
+  background-color: #42f5b9;
+  width: 40px;
+}
+
+#cart {
+  width: 30px;
+}
+
+.search {
+  width: 550px;
+  height: 40px;
+  border-radius: 50px 50px 50px 50px;
+  border: 2px solid black;
+}
+
+.nav button {
+  font-size: 16px;
+  background-color: inherit;
+  border: 0px;
+}
+
+.nav .top-side h1 {
+  display: flex;
+  align-items: center;
+}
+
+.nav .title {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.admission {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content:space-between;
+}

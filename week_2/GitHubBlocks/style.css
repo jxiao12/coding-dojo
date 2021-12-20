@@ -1,0 +1,49 @@
+.container{
+  width: 800px;
+  height: 900px;
+  margin: 20px auto;
+  background-color: #ebedeb;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+img.octocat {
+    height: 200px;
+    margin: 30px;
+}
+
+.first_line_picture{
+  height: 240px;
+  background-color: blue;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.second_line_picture{
+  height: 240px;
+  background-color: pink;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.third_line_picture{
+  height: 240px;
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,81 @@
+.nav-top {
+  width: 900px;
+  background-color: silver;
+  margin: -10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title em {
+  margin-left: 20px;
+}
+
+button {
+  margin-right: 20px;
+  width: 70px;
+  height: 30px;
+  background-color: blue;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px black;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+
+.container {
+  width: 600px;
+  margin: 20px 0px 0px 210px;
+}
+
+.main, .second-main{
+  width: inherit;
+  border: 3px solid black;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.informitions {
+  width: 200px;
+}
+
+.meanings {
+  width: 300px;
+}
+
+.people-rate {
+  width: 65px;
+  background-color: yellow;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px black;
+}
+
+
+.side-part, .container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.side-part {
+  margin: 40px 0px 0px 60px;
+  width: 250px;
+  border: 3px solid black;
+  height: 150px;
+}
+
+.side-part h2{
+  margin-left: 20px;
+}
+
+#second-button {
+  background-color: green;
+  width: 200px;
+  margin-left: 25px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="nav-top">
+      <h1 class="nav-title"><em>Dojonary</em></h1>
+      <input type="text" name="" placeholder="Search">
+      <button onclick="text(this)">Login</button>
+    </div>
+
+
+    <div class="container">
+      <div class="main">
+        <div class="informitions">
+          <div class="word-information">
+            <h1><strong>Ninja</strong></h1>
+            <h4><em>noun</em></h4>
+            <h3>Plural: <em>ninjas</em></h3>
+          </div>
+
+          <h3 class="people-rate" onclick="showInfo('#count')"><span id="count">0</span> likes</h3>
+        </div>
+
+        <div class="meanings">
+          <h2>A pactitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h2>
+        </div>
+      </div>
+
+      <div class="second-main">
+        <div class="informitions">
+          <div class="word-information">
+            <h1><strong>Ninja</strong></h1>
+            <h4><em>noun</em></h4>
+            <h3>Plural: <em>ninjas</em></h3>
+          </div>
+
+          <h3 class="people-rate" onclick="showInfo('#count2')"><span id="count2">0</span> likes</h3>
+        </div>
+
+        <div class="meanings">
+          <h2>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h2>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="side-part">
+      <h2>Dojonary is <br>defined by <strong>YOU</strong></h2>
+      <button id="second-button" onclick="remove(this)">Add Definition</button>
+    </div>
+
+    <script type="text/javascript" src="basic.js"></script>
+  </body>
+</html>

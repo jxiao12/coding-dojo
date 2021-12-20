@@ -1,0 +1,30 @@
+.main {
+  width: 400px;
+  margin: 50px auto;
+  border: 3px solid black;
+}
+
+.top-side {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.post {
+  width: 280px;
+  margin-left: 20px;
+}
+
+
+
+.top-side p {
+  font-size: 120%;
+}
+
+.btn {
+  font-size: 120%;
+  box-shadow: 4px 4px 4px black;
+  border: 3px solid black;
+  background-color: yellow;
+}
